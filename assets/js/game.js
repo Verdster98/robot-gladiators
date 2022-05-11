@@ -73,6 +73,9 @@ var fight = function(enemyName) {
 
 var startGame= function() {
   // function to end entire game
+
+  for (var i = 0; i < enemyNames.length; i++) {
+
   var endGame = function() {
     // if player is still allive, player wins!
     if (player > 0) {
@@ -124,7 +127,7 @@ for (var i = 0; i < enemyNames.length; i++) {
     break;
   }
 }
-};
+  }
 // start the game when the page loads
-startGame();
-  
+endGame();
+}; 
